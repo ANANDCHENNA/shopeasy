@@ -1,0 +1,154 @@
+body {
+  font-family: 'Edu SA Beginner', cursive;
+  background-color: #222;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: #fff;
+}
+
+.container {
+  max-width: 400px;
+  padding: 20px;
+}
+
+.form-card {
+  background-color: #333;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  padding: 30px;
+}
+
+.form-title {
+  text-align: center;
+  font-size: 24px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.form-option {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.form-option label {
+  font-size: 16px;
+  color: #ccc;
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.form-option label:hover {
+  background-color: rgb(9, 69, 11);
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  font-size: 16px;
+  color: #ccc;
+  margin-bottom: 5px;
+}
+
+.form-group input {
+  width: 90%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #333;
+  color: #fff;
+}
+
+.submit-btn {
+  display: block;
+  width: 100%;
+  background-color: rgb(76, 175, 80);
+  font-family: 'Edu SA Beginner', cursive;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 12px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.submit-btn:hover {
+  background-color: rgb(9, 69, 11);
+}
+
+
+.login-btn {
+  margin-left: 10px;
+}
+
+.login-btn button {
+  background-color: rgb(76, 175, 80);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.home-button {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.home-btn {
+  display: inline-block;
+  background-color: rgb(76, 175, 80);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 12px 20px;
+  font-size: 18px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.home-btn:hover {
+  background-color: rgb(9, 69, 11);
+}
+
+/* ... (Your existing CSS styles) ... */
+
+/* Custom modal styles */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.modal-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #333;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  color: #fff;
+}
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+
+/* ... (Your existing CSS styles) ... */

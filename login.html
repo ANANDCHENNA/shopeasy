@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login and Signup Forms</title>
+  <link rel="stylesheet" href="login buttons.css">
+</head>
+<body>
+  <div class="container">
+    <div class="form-card">
+      <h2 class="form-title">Login</h2>
+      <form id="loginSignupForm">
+        <div class="form-group">
+          <label for="username">Username</label>
+          <input type="text" id="username" name="username" required>
+        </div>
+        <div class="form-group">
+          <label for="password">Password</label>
+          <input type="password" id="password" name="password" required>
+        </div>
+        <button type="submit" class="submit-btn">login</button>
+      </form>
+      <!-- Home button -->
+      <div class="home-button">
+        <a href="register.html" class="home-btn">Register</a>
+      </div>
+    </div>
+  </div>
+  <!-- ... (Your existing HTML code remains unchanged) ... -->
+
+<!-- The custom modal popup -->
+<div id="loginSuccessModal" class="modal">
+  <div class="modal-content">
+    <span class="close-btn" onclick="closeModal()">&times;</span>
+    <h3>Login Successful!</h3>
+    <p>You will be redirected to the shop shortly.</p>
+  </div>
+</div>
+
+    <script>
+      document.getElementById("loginSignupForm").addEventListener("submit", function(event) {
+  event.preventDefault();
+  // Perform login form validation using JavaScript
+  // Submit the login data to the server using AJAX or other methods
+
+  // Simulate a successful login for demonstration purposes
+  const username = document.getElementById("username").value;
+  const password = document.getElementById("password").value;
+
+  // Replace the following condition with actual login validation logic
+  if (username === "admin" && password === "admin") {
+    // Show the login success modal
+    openModal();
+
+    // Redirect to the shopping website after a short delay (2 seconds in this case)
+    setTimeout(function() {
+      window.location.href = "shop.html";
+    }, 1000);
+  } else {
+    // Replace this with handling for unsuccessful login
+    alert("Login failed. Please check your credentials.");
+  }
+});
+
+// Functions to open and close the modal
+function openModal() {
+  const modal = document.getElementById("loginSuccessModal");
+  modal.style.display = "block";
+}
+
+function closeModal() {
+  const modal = document.getElementById("loginSuccessModal");
+  modal.style.display = "none";
+}
+
+  </script>
+
+</body>
+</html>
