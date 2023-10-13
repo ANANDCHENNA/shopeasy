@@ -1,12 +1,12 @@
 body {
   margin: 0;
   font-family: 'Edu SA Beginner', cursive;
-  background-color: #222; /* Set dark background color */
-  color: #fff; /* Set text color to white for better visibility */
+  background-color: #f0f0f0; /* Bright background color */
+  color: #222; /* Dark text color for better readability */
 }
 
 header {
-  background-color: #333; /* Keep the header background color as it is */
+  background-color: #fff; /* Set a light background color for the header */
   padding: 0px;
   display: flex;
   align-items: center;
@@ -21,9 +21,8 @@ header {
   background-blend-mode: screen; /* Blend the logo background color with the navbar color */
 }
 
-
 .navbar-title {
-  color: white;
+  color: #222; /* Dark text color for the title */
   margin: 0;
   padding-left: 20px;
 }
@@ -43,13 +42,12 @@ header {
 }
 
 .navbar a {
-  color: white;
+  color: #222; /* Dark text color for links */
   text-decoration: none;
 }
 
 .login-btn {
   margin-left: 10px;
-  
   /* Adjust the margin for the login button */
 }
 
@@ -58,9 +56,9 @@ header {
 }
 
 .login-btn button {
-  background-color: rgb(76, 175, 80);
+  background-color: #ff7f50; /* Brighter button color */
   border-radius: 5px;
-  color: white;
+  color: #fff; /* White text color for the button */
   font-family: 'Edu SA Beginner', cursive;
   font-size: 20px;
   border: none;
@@ -93,7 +91,6 @@ main.content {
   animation: bounce 3s ease-in-out;
 }
 
-
 .welcome {
   align-content: center;
 }
@@ -104,20 +101,20 @@ main.content {
   gap: 20px;
   justify-content: center;
 }
+
 .product {
   width: 200px;
   padding: 10px;
-  border: 1px solid #444; /* Darken the border color */
+  border: 1px solid #ccc; /* Lighten the border color */
   border-radius: 5px;
   margin: 10px;
   text-align: center;
-  background-color: #333; /* Set dark background color */
-  color: #fff; /* Set text color to white for better visibility */
+  background-color: #fff; /* Set a light background color for products */
+  color: #222; /* Dark text color for better visibility */
   transition: transform 0.3s ease; /* Add a smooth transition effect */
 }
+
 /* Your existing CSS styles */
-
-
 
 .product img {
   max-width: 100%;
@@ -132,7 +129,7 @@ main.content {
 
 .product p {
   font-size: 16px;
-  color: #ccc; /* Use a lighter color for the product description */
+  color: #555; /* Use a slightly darker color for the product description */
 }
 
 /* Hover effect - Zoom in the product on hover */
