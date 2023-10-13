@@ -1,7 +1,7 @@
 body {
   font-family: 'Edu SA Beginner', cursive;
-  background-color: #222;
-  color: #fff;
+  background-color: #f0f0f0; /* Bright background color */
+  color: #222; /* Dark text color */
   margin: 0;
   display: flex;
   justify-content: center;
@@ -13,13 +13,13 @@ h2 {
   text-align: center;
   font-size: 24px;
   padding-right: 20px;
-  color: #fff;
+  color: #222; /* Dark text color */
 }
 
 #registrationForm {
   max-width: 400px;
   padding: 20px;
-  background-color: #333;
+  background-color: #fff; /* Light background color */
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
   border-radius: 5px;
 }
@@ -27,7 +27,7 @@ h2 {
 #registrationForm label {
   display: block;
   font-size: 16px;
-  color: #ccc;
+  color: #555; /* Slightly darker text color */
   margin-bottom: 5px;
 }
 
@@ -37,17 +37,17 @@ h2 {
   width: 90%;
   padding: 10px;
   font-size: 16px;
-  border: 1px solid #444;
+  border: 1px solid #ccc; /* Lighter border color */
   border-radius: 5px;
   margin-bottom: 15px;
-  background-color: #444;
-  color: #fff;
+  background-color: #f0f0f0; /* Brighter background color */
+  color: #222; /* Dark text color */
 }
 
 #registrationForm button[type="submit"] {
   display: block;
   width: 100%;
-  background-color: rgb(76, 175, 80);
+  background-color: rgb(76, 175, 80); /* Green button color */
   color: #fff;
   border: none;
   border-radius: 5px;
@@ -57,7 +57,7 @@ h2 {
 }
 
 #registrationForm button[type="submit"]:hover {
-  background-color: rgb(9, 69, 11);
+  background-color: rgb(9, 69, 11); /* Darker green on hover */
 }
 
 .home-button {
@@ -67,7 +67,7 @@ h2 {
 
 .home-btn {
   display: inline-block;
-  background-color: rgb(76, 175, 80);
+  background-color: rgb(76, 175, 80); /* Green button color */
   color: #fff;
   border: none;
   border-radius: 5px;
@@ -78,5 +78,5 @@ h2 {
 }
 
 .home-btn:hover {
-  background-color: rgb(9, 69, 11);
+  background-color: rgb(9, 69, 11); /* Darker green on hover */
 }
