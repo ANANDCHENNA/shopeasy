@@ -3,11 +3,10 @@
 <head>
   <title>Registration Page</title>
   <link rel="stylesheet" href="register styles.css">
-
 </head>
 <body>
   <h2>Registration</h2>
-  <form id="registrationForm">
+  <form id="registrationForm" onsubmit="return validateForm()">
     <label for="username">Username</label>
     <input type="text" id="username" required>
     <br>
@@ -18,8 +17,27 @@
     <input type="password" id="password" required>
     <br>
     <div class="home-button">
-      <a href="shop.html" class="home-btn">Register</a>
+      <button type="submit" class="home-btn">Register</button>
     </div>
   </form>
+
+  <script>
+    function validateForm() {
+      // Get input values
+      var username = document.getElementById('username').value;
+      var email = document.getElementById('email').value;
+      var password = document.getElementById('password').value;
+
+      // Simple validation (you can add more complex validation)
+      if (username === "" || email === "" || password === "") {
+        alert("All fields are required");
+        return false; // Prevent form submission
+      }
+
+      // You can add more validation for email format, password strength, etc.
+
+      return true; // Allow form submission
+    }
+  </script>
 </body>
 </html>
