@@ -1,12 +1,12 @@
 body {
   font-family: 'Edu SA Beginner', cursive;
-  background-color: #222;
+  background-color: #fff; /* Change to bright background color */
   margin: 0;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
-  color: #fff;
+  color: #000; /* Change to dark text color */
 }
 
 .container {
@@ -15,7 +15,7 @@ body {
 }
 
 .form-card {
-  background-color: #333;
+  background-color: #fff; /* Change to bright background color */
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
   border-radius: 5px;
   padding: 30px;
@@ -24,7 +24,7 @@ body {
 .form-title {
   text-align: center;
   font-size: 24px;
-  color: #fff;
+  color: #000; /* Change to dark text color */
   margin-bottom: 20px;
 }
 
@@ -36,13 +36,13 @@ body {
 
 .form-option label {
   font-size: 16px;
-  color: #ccc;
+  color: #333; /* Change to a dark gray color */
   margin: 0 10px;
   cursor: pointer;
 }
 
 .form-option label:hover {
-  background-color: rgb(9, 69, 11);
+  background-color: rgb(173, 216, 178); /* Light green background color */
 }
 
 .form-group {
@@ -52,7 +52,7 @@ body {
 .form-group label {
   display: block;
   font-size: 16px;
-  color: #ccc;
+  color: #333; /* Change to a dark gray color */
   margin-bottom: 5px;
 }
 
@@ -60,16 +60,16 @@ body {
   width: 90%;
   padding: 10px;
   font-size: 16px;
-  border: 1px solid #ccc;
+  border: 1px solid #ccc; /* Change to a light gray border color */
   border-radius: 5px;
-  background-color: #333;
-  color: #fff;
+  background-color: #fff; /* Change to bright background color */
+  color: #000; /* Change to dark text color */
 }
 
 .submit-btn {
   display: block;
   width: 100%;
-  background-color: rgb(76, 175, 80);
+  background-color: rgb(76, 175, 80); /* Keep this color for the button */
   font-family: 'Edu SA Beginner', cursive;
   color: #fff;
   border: none;
@@ -80,7 +80,7 @@ body {
 }
 
 .submit-btn:hover {
-  background-color: rgb(9, 69, 11);
+  background-color: rgb(9, 69, 11); /* Dark green on hover */
 }
 
 
